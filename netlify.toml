@@ -1,11 +1,11 @@
 [build]
   command = "python app.py"
-  publish = "https://github.com/itRunTester/piorun99/blob/984515636dbc36c936055436dbf225910fc684ca/app.py"
+  publish = "https://github.com/itRunTester/piorun99/tree/c7a4dc12491bdca5370b61881265e1fb45bc4187"
 
 [build.environment]
   FLASK_APP = "app.py"
   FLASK_ENV = "production"
-  PYTHONPATH = "https://github.com/itRunTester/piorun99/blob/984515636dbc36c936055436dbf225910fc684ca/app.py"
+  PYTHONPATH = "https://github.com/itRunTester/piorun99/tree/c7a4dc12491bdca5370b61881265e1fb45bc4187"
 
 [dev]
   command = "flask run"
