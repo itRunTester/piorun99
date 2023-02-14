@@ -1,5 +1,5 @@
 [build]
-  command = "app.py"
+  command = "python app.py"
   publish = "https://github.com/itRunTester/piorun99/blob/984515636dbc36c936055436dbf225910fc684ca/app.py"
 
 [build.environment]
