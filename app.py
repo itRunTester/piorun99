@@ -24,7 +24,8 @@ def index():
     auth = request.authorization
     if not auth or not check_auth(auth.username, auth.password):
         return Response('Nieprawidłowe dane logowania', 401, {'WWW-Authenticate': 'Basic realm="Login Required"'})
-    return '<h1>Zalogowano pomyślnie!</h1>'
+    # return '<h1>Zalogowano pomyślnie!</h1>'
+    return render_template('index.html')
 
 
 if __name__ == '__main__':
